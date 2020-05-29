@@ -21,3 +21,4 @@ def get_cases_chronologically(df):
     cases = np.array(cases)
     labels = np.array(labels)
     return cases, labels
+
