@@ -100,7 +100,7 @@ line = p(x_range)
 plt.plot(x_range, line)
 plt.title('DC Not Included')
 # enter population density to predict tests for
-pop_to_predict = 400
+pop_to_predict = 650
 testing_prediction = p(pop_to_predict)
 print('Number of tested individuals expected = ', testing_prediction)
 
