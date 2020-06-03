@@ -98,7 +98,7 @@ x_range = np.linspace(0, 1150)
 plt.ylim(bottom=0)
 line = p(x_range)
 plt.plot(x_range, line)
-plt.title('DC Not Included')
+plt.title('D.C Not Included')
 # enter population density to predict tests for
 pop_to_predict = 650
 testing_prediction = p(pop_to_predict)

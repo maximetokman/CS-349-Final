@@ -89,7 +89,7 @@ plt.figure(figsize=(6,4))
 plt.scatter(densities, tests, color = deaths_labels)
 plt.xlabel('Population (Per Square Mile)')
 plt.ylabel('# Tested')
-plt.title('DC Included')
+plt.title('D.C Included')
 # plt.savefig('pop_tests_scatter.png')
 
 
